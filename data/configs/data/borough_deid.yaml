@@ -1,0 +1,14 @@
+task: borough_deid
+added_token: []
+tokenized_data_path: ./data/dummy_data_tokenized_deid_text_postal_code_borough
+num_label: 6 
+truncation: True
+is_split_into_words: False
+max_length: 512
+label_col_name: label
+drop_columns: []
+num_train_samples: 
+num_eval_samples: 
+tokenizer:
+  path: bert-base-uncased
+  special_tokens:

@@ -1,0 +1,7 @@
+defaults:
+  - data: note_month_deid
+  - model: bert
+  - trainer: binary_large_batch
+  - logger: notemonth
+  - slurm: none
+  - run: normal

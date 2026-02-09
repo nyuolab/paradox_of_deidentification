@@ -1,0 +1,9 @@
+.venv/
+data/dummy_data*/
+models/
+wandb/
+*.csv
+.git/
+__pycache__/
+outputs/
+logs/

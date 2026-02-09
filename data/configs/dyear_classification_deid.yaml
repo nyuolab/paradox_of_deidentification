@@ -1,0 +1,7 @@
+defaults:
+  - data: note_year_deid
+  - model: bert
+  - trainer: binary_large_batch
+  - logger: noteyear
+  - slurm: none
+  - run: normal

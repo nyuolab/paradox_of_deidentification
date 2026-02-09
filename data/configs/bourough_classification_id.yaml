@@ -1,0 +1,7 @@
+defaults:
+  - data: borough_id 
+  - model: bert
+  - trainer: binary_large_batch
+  - logger: borough_id
+  - slurm: none
+  - run: normal

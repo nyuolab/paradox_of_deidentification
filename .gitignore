@@ -1,0 +1,25 @@
+*.DS_Store
+*_pycache*
+wandb
+.DS_Store
+logs/
+outputs/
+*.arrow
+*.safetensors
+*.bin
+*.txt
+
+# Ignore generated data but keep configs
+data/*
+!data/configs/
+!data/eval_configs/
+
+# Ignore trained models and inference outputs
+models/
+
+# Ignore generated CSV files
+*.csv
+
+CLAUDE.md
+
+overleaf

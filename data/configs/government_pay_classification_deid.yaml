@@ -1,0 +1,7 @@
+defaults:
+  - data: government_pay_deid
+  - model: bert
+  - trainer: binary_large_batch
+  - logger: government_pay
+  - slurm: none
+  - run: normal

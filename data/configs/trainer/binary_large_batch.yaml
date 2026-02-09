@@ -1,0 +1,16 @@
+p_eval: 0.5 # evaluate and save every other p epoch, p is a positive float
+lr: 2e-5
+num_train_epochs: 10 
+weight_decay: 0
+save_strategy: steps
+logging_strategy: steps
+logging_steps: 5
+eval_steps:  5 
+evaluation_strategy: steps
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 5 
+save_steps: 5
+save_total_limit: 2
+metric: [roc_auc, accuracy] # mean square error for regression
+early_stop: True
+gradient_accumulation_steps: 2

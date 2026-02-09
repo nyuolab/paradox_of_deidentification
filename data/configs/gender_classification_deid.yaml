@@ -1,0 +1,7 @@
+defaults:
+  - data: gender_deid
+  - model: bert
+  - trainer: binary_large_batch
+  - logger: gender
+  - slurm: none
+  - run: normal

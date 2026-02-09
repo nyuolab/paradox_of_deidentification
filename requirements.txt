@@ -1,0 +1,14 @@
+pandas
+matplotlib
+networkx
+scikit-learn
+dask
+wandb
+hydra-core
+transformers==4.39.3
+datasets==2.6.1
+evaluate
+torch==2.1.2
+accelerate>=0.26.0,<0.31.0
+pyarrow>=8.0.0,<15.0.0
+numpy==1.26.4

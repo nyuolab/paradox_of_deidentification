@@ -1,0 +1,13 @@
+check_cols: [] # all values to be populated at runtime
+top_k_map:
+  sex: 0
+  dyear: 0
+  dmonth: 0
+  income_token: 0
+  payorfinancialclass: 0
+  postal_code_borough: 0
+cached_inference_path: "models/inference_data"
+majority_data_path: "./data/dummy_data_tokenized_deid_text/train"
+test_data_path: "./data/dummy_data_tokenized_deid_text/test"
+num_worker: 1
+logging_level: info
