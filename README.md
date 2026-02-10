@@ -2,6 +2,8 @@
 
 Lavender Y. Jiang, Xujin Chris Liu, Kyunghyun Cho, Eric K. Oermann — New York University
 
+https://arxiv.org/abs/2602.08997
+
 <!-- TODO: Add arXiv link -->
 <!-- **Paper:** [Title](https://arxiv.org/abs/XXXX.XXXXX) -->
 
